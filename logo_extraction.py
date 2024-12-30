@@ -596,7 +596,7 @@ async def get_logo(
             uid=best_logo.uid,
             asset_url=source_url,
             source_url=best_logo.url,
-            gcs_storage_link=f"https://storage.googleapis.com/eco_one_images/bullseye_logos/{filename}",
+            gcs_storage_link=f"https://storage.googleapis.com/logos/bullseye_logos/{filename}",
             scores=best_logo.scores,
         )
         if return_image is True:
